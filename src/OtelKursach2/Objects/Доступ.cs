@@ -50,9 +50,9 @@ namespace IIS.OtelKursach2
             "Сотрудник.Фамилия",
             "Сотрудник.Отчесвто",
             "Сотрудник.Должность.Наименование"})]
-    [AssociatedDetailViewAttribute("ДоступE", "РегистрЗаписи", "РегистрЗаписиE", true, "", "Регистр записи", true, new string[] {
-            ""})]
     [AssociatedDetailViewAttribute("ДоступE", "Гости", "ГостиE", true, "", "Гости", true, new string[] {
+            ""})]
+    [AssociatedDetailViewAttribute("ДоступE", "РегистрЗаписи", "РегистрЗаписиE", true, "", "Запись", true, new string[] {
             ""})]
     [MasterViewDefineAttribute("ДоступE", "Комната", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Класс")]
     [MasterViewDefineAttribute("ДоступE", "Сотрудник", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Имя")]

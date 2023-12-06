@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-otel-kursach2-комната-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-комната-l.title'),
-            icon: 'calendar',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-otel-kursach2-отель-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-отель-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-отель-l.title'),
-            icon: 'chart line',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-otel-kursach2-доступ-l',
@@ -46,7 +46,7 @@ export default Controller.extend({
             link: 'i-i-s-otel-kursach2-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-сотрудник-l.title'),
-            icon: 'calendar',
+            icon: 'book',
             children: null
           }]
         }
