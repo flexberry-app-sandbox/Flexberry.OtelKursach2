@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otel-kursach2-доступ-e",
+  "editForm": "i-i-s-otel-kursach2-доступ-e",
+  "external": false,
+  "caption": "Доступ",
+  "name": "IISOtelKursach2ДоступL",
+  "className": "ДоступL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel-kursach2-доступ",
+      "modelProjection": "ДоступL"
+    }
+  ]
+}

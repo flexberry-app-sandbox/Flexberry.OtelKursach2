@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Отель",
+  "name": "IISOtelKursach2ОтельE",
+  "className": "ОтельE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel-kursach2-отель",
+      "modelProjection": "ОтельE"
+    }
+  ]
+}

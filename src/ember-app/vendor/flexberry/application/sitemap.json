@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Otel kursach2",
+  "applicationTitle": "Otel kursach2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "otel-kursach2",
+      "caption": "OtelKursach2",
+      "title": "OtelKursach2",
+      "children": [
+        {
+          "link": "i-i-s-otel-kursach2-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach2-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach2-отель-l",
+          "menuName": null,
+          "caption": "Отель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach2-доступ-l",
+          "menuName": null,
+          "caption": "Доступ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach2-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

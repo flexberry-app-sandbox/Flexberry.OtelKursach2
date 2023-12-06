@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otel-kursach2-отель-e",
+  "editForm": "i-i-s-otel-kursach2-отель-e",
+  "external": false,
+  "caption": "Отель",
+  "name": "IISOtelKursach2ОтельL",
+  "className": "ОтельL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel-kursach2-отель",
+      "modelProjection": "ОтельL"
+    }
+  ]
+}

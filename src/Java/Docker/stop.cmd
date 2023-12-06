@@ -1,0 +1,1 @@
+docker-compose -p otelkursach2-java down

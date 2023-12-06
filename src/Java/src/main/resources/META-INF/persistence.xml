@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>OtelKursach2.model.Dolzhnost</class>
+        <class>OtelKursach2.model.Komnata</class>
+        <class>OtelKursach2.model.Otel</class>
+        <class>OtelKursach2.model.Dostup</class>
+        <class>OtelKursach2.model.Gosti</class>
+        <class>OtelKursach2.model.RegistrZapisi</class>
+        <class>OtelKursach2.model.Sotrudnik</class>
+        <class>OtelKursach2.model.FlexberryAdvLimit</class>
+        <class>OtelKursach2.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>OtelKursach2.model.NewPlatformFlexberryServicesLock</class>
+        <class>OtelKursach2.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

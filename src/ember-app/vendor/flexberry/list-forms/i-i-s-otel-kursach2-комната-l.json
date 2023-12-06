@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otel-kursach2-комната-e",
+  "editForm": "i-i-s-otel-kursach2-комната-e",
+  "external": false,
+  "caption": "Комната",
+  "name": "IISOtelKursach2КомнатаL",
+  "className": "КомнатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel-kursach2-комната",
+      "modelProjection": "КомнатаL"
+    }
+  ]
+}

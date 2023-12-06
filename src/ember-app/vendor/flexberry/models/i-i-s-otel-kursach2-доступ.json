@@ -1,0 +1,196 @@
+﻿{
+  "name": "IISOtelKursach2Доступ",
+  "modelName": "i-i-s-otel-kursach2-доступ",
+  "className": "Доступ",
+  "nameSpace": "IIS.OtelKursach2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "доступ",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодДоступа",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "комната",
+      "relatedTo": "i-i-s-otel-kursach2-комната",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-otel-kursach2-сотрудник",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "регистрЗаписи",
+      "relatedTo": "i-i-s-otel-kursach2-регистр-записи",
+      "inverse": "доступ"
+    },
+    {
+      "name": "гости",
+      "relatedTo": "i-i-s-otel-kursach2-гости",
+      "inverse": "доступ"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ДоступE",
+      "modelName": "i-i-s-otel-kursach2-доступ",
+      "attrs": [
+        {
+          "name": "кодДоступа",
+          "caption": "Код доступа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "доступ",
+          "caption": "Доступ",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДоступL",
+      "modelName": "i-i-s-otel-kursach2-доступ",
+      "attrs": [
+        {
+          "name": "кодДоступа",
+          "caption": "Код доступа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "доступ",
+          "caption": "Доступ",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Комната",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "кодКомнаты",
+              "caption": "Код комнаты",
+              "hidden": false,
+              "index": 2
+            },
+            {
+              "name": "колвоМест",
+              "caption": "колво мест",
+              "hidden": false,
+              "index": 3
+            },
+            {
+              "name": "стоимость",
+              "caption": "стоимость",
+              "hidden": false,
+              "index": 4
+            },
+            {
+              "name": "класс",
+              "caption": "Класс",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Код комнаты",
+          "name": "комната",
+          "relatedTo": "i-i-s-otel-kursach2-комната",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Сотрудник.Должность",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "наименование",
+                  "caption": "Наименование должности",
+                  "hidden": false,
+                  "index": 9
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "должность",
+              "relatedTo": "i-i-s-otel-kursach2-должность",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 6
+            },
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": false,
+              "index": 7
+            },
+            {
+              "name": "отчесвто",
+              "caption": "Отчество",
+              "hidden": false,
+              "index": 8
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-otel-kursach2-сотрудник",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
