@@ -22,31 +22,30 @@ export default Controller.extend({
             link: 'i-i-s-otel-kursach2-должность-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-должность-l.title'),
-            icon: 'file',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-otel-kursach2-комната-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-комната-l.title'),
-            icon: 'archive',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-otel-kursach2-отель-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-отель-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-отель-l.title'),
-            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-otel-kursach2-доступ-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-доступ-l.title'),
-            icon: 'tags',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-otel-kursach2-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach2.i-i-s-otel-kursach2-сотрудник-l.title'),
-            icon: 'book',
+            icon: 'folder',
             children: null
           }]
         }
